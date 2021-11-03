@@ -2,13 +2,16 @@ body {
     background-color: black;
 }
 #Home {
+    color:white;
     text-align: center;
     font-size: 3cm;
 }
 a:link {
+    color:white;
     text-decoration: none;
 }
 #JokesandRiddlesHomePage {
+    color:greenyellow;
     text-align: center;
     font-size: 2cm;
 }
