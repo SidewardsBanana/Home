@@ -1,10 +1,14 @@
+body {
+    background-color: black;
+}
 #Home {
     text-align: center;
+    font-size: 3cm;
 }
 a:link {
     text-decoration: none;
 }
 #JokesandRiddlesHomePage {
     text-align: center;
-    font-size: 2in;
+    font-size: 2cm;
 }
