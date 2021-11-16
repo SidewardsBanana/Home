@@ -45,3 +45,7 @@ a:link {
     -webkit-text-fill-color: transparent;
     font-size: 1cm;
 }
+#gdwHomePage {
+    text-align:center;
+    font-size: 2cm;
+}
