@@ -46,10 +46,28 @@ a:link {
     font-size: 1cm;
 }
 #gdwHomePage {
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,80,80) 50%, rgba(255,0,0,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-align:center;
     font-size: 2cm;
+    text-decoration: underline white;
 }
 #ciwHomePage {
+    background: rgb(0,255,0);
+    background: linear-gradient(90deg, rgba(0,255,0,1) 20%, rgba(140,255,140,1) 50%, rgba(0,255,0,1) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-align: center;
     font-size: 2cm;
+    text-decoration: underline white;
+}
+#uCorp {
+    background: rgb(0,255,0);
+    background: linear-gradient(90deg, rgba(0,255,0,1) 20%, rgba(140,255,140,1) 50%, rgba(0,255,0,1) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 1cm;
 }
