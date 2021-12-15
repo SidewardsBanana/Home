@@ -15,59 +15,49 @@ a:link {
     color:white;
     text-decoration: none;
 }
-#JAndR {
+.JAR {
     background: rgb(0,160,255);
-    background: linear-gradient(90deg, rgba(0,160,255,1) 20%, rgba(0,255,255,1) 50%, rgba(0,160,255,1) 80%);
+    background: linear-gradient(90deg, rgba(0,160,255,1) 40%, rgba(0,255,255,1) 50%, rgba(0,160,255,1) 60%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
+}
+#JAndR {
     font-size: 2cm;
     text-decoration: underline white;
 }
 #Jokes {
-    background: rgb(0,160,255);
-    background: linear-gradient(90deg, rgba(0,160,255,1) 20%, rgba(0,255,255,1) 50%, rgba(0,160,255,1) 80%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     font-size: 1cm;
 }
 #Crazy {
-    background: rgb(0,160,255);
-    background: linear-gradient(90deg, rgba(0,160,255,1) 20%, rgba(0,255,255,1) 50%, rgba(0,160,255,1) 80%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     font-size: 1cm;
 }
 #Riddles {
-    background: rgb(0,160,255);
-    background: linear-gradient(90deg, rgba(0,160,255,1) 20%, rgba(0,255,255,1) 50%, rgba(0,160,255,1) 80%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     font-size: 1cm;
 }
-#gdwHomePage {
+.GDW {
     background: rgb(255,0,0);
-    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,80,80) 50%, rgba(255,0,0,1) 100%);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 20%, rgba(255,127,127) 50%, rgba(255,0,0,1) 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align:center;
+    font-size: 1cm;
+}
+#gdwHomePage {
     font-size: 2cm;
     text-decoration: underline white;
 }
-#ciwHomePage {
+.CIW {
     background: rgb(0,255,0);
     background: linear-gradient(90deg, rgba(0,255,0,1) 20%, rgba(140,255,140,1) 50%, rgba(0,255,0,1) 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
+}
+#ciwHomePage {
     font-size: 2cm;
     text-decoration: underline white;
 }
 #uCorp {
-    background: rgb(0,255,0);
-    background: linear-gradient(90deg, rgba(0,255,0,1) 20%, rgba(140,255,140,1) 50%, rgba(0,255,0,1) 80%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: center;
     font-size: 1cm;
 }
