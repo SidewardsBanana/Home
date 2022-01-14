@@ -1,17 +1,17 @@
 body {
+    align-items: center;
     display: flex;
     flex-direction:column;
-    align-items: center;
-    justify-content: center;
     height:100vh;
-    overflow: hidden;
+    justify-content: center;
     margin: 0;
+    overflow: hidden;
 }
 h1     {
-    text-align: center;
     font-size: 3cm;
+    text-align: center;
 }
 #uCorp {
-    text-align: center;
     font-size: 2cm;
+    text-align: center;
 }
