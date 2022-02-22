@@ -5,5 +5,11 @@ button.onclick = handleButtonClick;
 }
 
 function handleButtonClick() {
-    alert("Button Was Clicked!");
+    let textInput = document.getElementById("songTextInput");
+    let songName = textInput.value;
+    if (songName == ""){
+        alert("Please Enter Song First");
+    }  else {
+    alert("Adding " + songName);
+    }
 }
