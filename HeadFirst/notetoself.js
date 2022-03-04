@@ -1,6 +1,9 @@
 window.onload = init;
 
 function init() {
+    var button = document.getElementById("addButton");
+    button.onclick = createSticky;
+
     for (var i = 0; i < localStorage.length; i++){
         var key = localStorage.key(i);
         if (key.substring(0, 6) == "sticky") {
@@ -18,6 +21,14 @@ function addStickyToDOM(value) {
     span.innerHTML = value;
     sticky.appendChild(span);
     stickies.appendChild(sticky);
+}
+
+function createSticky() {
+    var value = document.getElementById("noteText").value;
+    var key = "sticky_" + localStorage.length;
+    localStorage.setItem(key, value);
+
+    addStickyToDOM(value);
 }
 
 localStorage.setItem("sticky_0", "Take Shower");
