@@ -8,6 +8,7 @@
   
   function BeensFunction(arg1) {
     alert("Welcome To This Page Of " + arg1);
+    return "BeensFunction() return value";
   }
 
 </script>
@@ -19,7 +20,7 @@
 <h3>Beens Page</h3>
 
 <form name="myForm">
-<input type="button" value="Call Function" onclick="BeensFunction('Beens');" />
+<input type="button" value="Call Function" onclick="alert(BeensFunction('Beens'));" />
 </form>
 
 </body>
