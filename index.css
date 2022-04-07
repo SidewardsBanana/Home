@@ -18,6 +18,7 @@ a:link {
 .JAR {
     background: rgb(0,160,255);
     background: linear-gradient(90deg, rgba(0,160,255,1) 40%, rgba(0,255,255,1) 50%, rgba(0,160,255,1) 60%);
+    font-size: 1cm;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
@@ -25,15 +26,6 @@ a:link {
 #JAndR {
     font-size: 2cm;
     text-decoration: underline white;
-}
-#Jokes {
-    font-size: 1cm;
-}
-#Crazy {
-    font-size: 1cm;
-}
-#Riddles {
-    font-size: 1cm;
 }
 .GDW {
     background: rgb(255,0,0);
@@ -50,6 +42,7 @@ a:link {
 .CIW {
     background: rgb(0,255,0);
     background: linear-gradient(90deg, rgba(0,255,0,1) 40%, rgb(142, 255, 119) 50%, rgba(0,255,0,1) 60%);
+    font-size: 1cm;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
@@ -57,9 +50,6 @@ a:link {
 #ciwHomePage {
     font-size: 2cm;
     text-decoration: underline white;
-}
-#uCorp {
-    font-size: 1cm;
 }
 .ChristmasProject {
     color:white;
