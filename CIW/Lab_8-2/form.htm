@@ -23,6 +23,9 @@
 
 <h1>Registration Form</h1>
     <form>
+    <fieldset name="personal_info">
+    <legend>Personal Information:</legend>
+    
     <p>
         <label for="first">First name: </label>
         <input type="text" name="firstname" id="first" />
@@ -48,7 +51,9 @@
             <option value="Antarctica"> </option>
         </datalist>
     </p>
-
+    </fieldset>
+    <fieldset name="other-information">
+    <legend>Other Information:</legend>
     <p>
         <label for="tech">How many technologies do you know?: 0 </label>
         <input type="range" name="technologies" min="0" max="50" value="25" id="tech" /> 10+
