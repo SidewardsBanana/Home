@@ -15,6 +15,10 @@ a:link {
     color:white;
     text-decoration: none;
 }
+#form {
+    font-size: 2cm;
+    text-decoration: underline white;
+}
 .JAR {
     background: rgb(0,160,255);
     background: linear-gradient(90deg, rgba(0,160,255,1) 40%, rgba(0,255,255,1) 50%, rgba(0,160,255,1) 60%);
