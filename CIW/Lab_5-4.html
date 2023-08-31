@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Lab 5-4</title>
+
+<script type="text/javascript">
+
+function checkGrade(form) {
+  var myGrade = form.mySelect.options[form.mySelect.selectedIndex].text;
+  
+  if(myGrade >=90) {
+    alert("Your Grade Is an A.");
+  } 
+  else if(myGrade < 90 && myGrade >= 80){
+  alert("Your Grade Is a B.");
+  }
+  else {
+    alert("Your Grade Is a C Or Lower");
+  }
+}
+
+</script>
+
+</head>
+
+<body>
+
+<h3>CIW JavaScript Specialist</h3>
+<hr />
+<form name="myForm">
+select numerical grade value:
+<select name="mySelect">
+<option>100
+<option>99
+<option>98
+<option>97
+<option>96
+<option>95
+<option>94
+<option>93
+<option>92
+<option>91
+<option>90
+<option>89
+<option>88
+<option>87
+<option>86
+<option>85
+<option>84
+<option>83
+<option>82
+<option>81
+<option>80
+<option>79
+<option>78
+<option>77
+<option>76
+<option>75
+<option>74
+<option>73
+<option>72
+<option>71
+<option>70
+</select>
+<p>
+<input type="button" value="Check Grade" onclick="checkGrade(this.form);" />
+</form>
+</p>
+</body>
+</html>

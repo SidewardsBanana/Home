@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Getting Down with HTML Exercises</title>
+
+    <style>@import url(GDWcss/Center.css);</style>
+
+    <script>
+        var loc = window.location.href;
+        var HTMLvalidatorLinkStr = 'http://validator.w3.org/check?uri=' + loc;
+        var CSSvalidatorLinkStr = 'http://jigsaw.w3.org/css-validator/validator?uri=' + loc + '?profile=css3';
+        document.getElementById("vLink1").setAttribute("href", HTMLvalidatorLinkStr);
+        document.getElementById("vLink2").setAttribute("href", CSSvalidatorLinkStr);
+    </script>
+
+</head>
+
+<body>
+
+    <h1>Getting Down with HTML Exercises</h1>
+
+    <h2>Elements</h2>
+    <h3>Block-level Elements</h3>
+    <h3>Inline Elements</h3>
+    <h3>Object Elements</h3>
+    <h3>Special Characters</h3>
+    <h2>Lists</h2>
+    <h3>Ordered</h3>
+    <h3>Unordered<h3>
+    <h3>Definition</h3>
+    <h2>Tables</h2>
+    <h2>Links</h2>
+    <h3>Absolute</h3>
+    <h3>Relative</h3>
+    <h2>Images</h2>
+
+    <br>
+
+    <footer>
+        <a id="vLink1"><strong> HTML </strong> Valid! </a> |
+        <a id="vLink2"><strong> CSS </strong> Valid! </a>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="Description" content="Sample Website for learning HTML5 and CSS3" />
+<link rel="stylesheet" href="css/uCorp.css" />
+<title>uCorp</title>
+</head>
+<body>
+
+<header>
+<img src="media/uCorp-logo-3.png" alt="uCorp logo" />
+</header>
+
+<nav>
+<p><a class="navlinks" href="http://www.ucorp.biz/course_about.php">About Course</a></p>
+<p><a class="navlinks" href="http://www.ucorp.biz/technology.php">Technology</a></p>
+</nav> 
+
+<section>
+
+<article>
+
+<h1>Registration Form</h1>
+
+    <form>
+	
+	
+    <p>
+        <label for="first">First name: </label>
+        <input type="text" name="firstname" id="first" />
+    </p>
+    <p>
+        <label for="last">Last name: </label>
+        <input type="text" name="lastname" id="last" />
+    </p>
+    <p>
+        <label for="db">Date of Birth: </label>
+        <input type="date" name="dob" id="db" />
+    </p>
+    <p>
+        <label for="cont">Your Continent: </label>
+        <input list="continents" name="continent" id="cont" />
+        <datalist id="continents">
+            <option value="North America"> </option>
+            <option value="South America"> </option>
+            <option value="Europe"> </option>
+            <option value="Asia"> </option>
+            <option value="Africa"> </option>
+            <option value="Australia"> </option>
+            <option value="Antarctica"> </option>
+        </datalist>
+    </p>
+	
+	
+	
+    <p>
+        <label for="tech">How many technologies do you know?: 0 </label>
+        <input type="range" name="technologies" min="0" max="50" value="25" id="tech" /> 10+
+    </p>
+    <p>
+        <label for="num">Age of user: </label>
+        <input type="number" name="age" min="1" max="100" id="num" />
+    </p>
+	
+</form>
+
+</article> 
+
+</section> 
+
+<footer>
+<p>
+FOLLOW US ON:
+</p>
+<p>
+<a href="https://twitter.com/uCorp4">Twitter</a> |
+<a href="https://www.linkedin.com/company/ucorporation/">LinkedIn</a> |
+<a href="https://www.instagram.com/ucorp123/">Instagram</a>
+</p>
+<p>
+Copyright &copy; All rights reserved by uCorp
+</p>
+</footer>
+
+</body>
+</html>

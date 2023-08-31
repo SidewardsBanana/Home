@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Lab 6-2</title>
+
+<style>
+  body {
+      background-image: url('media/Smiley.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+</style>
+
+<script>
+  
+  function HappyFunction(arg1) {
+    alert("Welcome To This Page Of " + arg1);
+    return "Make Sure To Smile";
+  }
+
+</script>
+
+</head>
+
+<body>
+
+<h3>Happy Page</h3>
+
+<form name="myForm">
+<input type="button" value="Call Function" onclick="alert(HappyFunction('Happiness'));" />
+</form>
+
+</body>
+</html>

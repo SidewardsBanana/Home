@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>GDW Home Page</title>
+
+    <style>@import url(GDWcss/GDWHomePage.css);</style>
+
+    <script>
+        var loc = window.location.href;
+        var HTMLvalidatorLinkStr = 'http://validator.w3.org/check?uri=' + loc;
+        var CSSvalidatorLinkStr = 'http://jigsaw.w3.org/css-validator/validator?uri=' + loc + '?profile=css3';
+        document.getElementById("vLink1").setAttribute("href", HTMLvalidatorLinkStr);
+        document.getElementById("vLink2").setAttribute("href", CSSvalidatorLinkStr);
+    </script>
+
+</head>
+
+<body>
+
+    <div class="Header">
+        <p id="GDW_Home_Page">GDW Home Page</p>
+    </div>
+
+    <br>
+
+    <div class="GDW">
+
+        <a id="minimal_page" href="minimal_page.html">
+            <p>Minimal Page</p>
+        </a>
+        <a id="block" href="block.html">
+            <p>Block Page</p>
+        </a>
+        <a id="inline" href="inline.html">
+            <p>Inline Page</p>
+        </a>
+        <a id="object" href="object.html">
+            <p>Object Page</p>
+        </a>
+        <a id="special" href="special.html">
+            <p>Special Page</p>
+        </a>
+        <a id="unordered" href="unordered.html">
+            <p>Unordered Page</p>
+        </a>
+        <a id="ordered" href="ordered.html">
+            <p>Ordered Page</p>
+        </a>
+    </div>
+
+    <br>
+
+    <footer>
+        <a id="vLink1"><strong> HTML </strong> Valid! </a> |
+        <a id="vLink2"><strong> CSS </strong> Valid! </a>
+    </footer>
+ 
+<br><br><br>
+
+</body>
+
+</html>

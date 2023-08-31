@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Special Characters</title>
+
+    <style>@import url(GDWcss/Center.css);</style>
+
+    <script>
+        var loc = window.location.href;
+        var HTMLvalidatorLinkStr = 'http://validator.w3.org/check?uri=' + loc;
+        var CSSvalidatorLinkStr = 'http://jigsaw.w3.org/css-validator/validator?uri=' + loc + '?profile=css3';
+        document.getElementById("vLink1").setAttribute("href", HTMLvalidatorLinkStr);
+        document.getElementById("vLink2").setAttribute("href", CSSvalidatorLinkStr);
+    </script>
+    
+</head>
+
+<body>
+
+    <h1>Special Characters</h1>
+
+    <p>Since &lt;, &gt;, and &amp; have special meaning in HTML, you can't use these characters to represent themselves.
+        Instead, you need to use the so called <q>special characters</q> to represent them. For example, to have a less
+        than sign appear in your document, you need to use &lt; to represent it.</p>
+
+    <br>
+
+    <footer>
+        <a id="vLink1"><strong> HTML </strong> Valid! </a> |
+        <a id="vLink2"><strong> CSS </strong> Valid! </a>
+    </footer>
+
+</body>
+
+</html>

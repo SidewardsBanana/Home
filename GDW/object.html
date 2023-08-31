@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Object Elements</title>
+
+    <style>@import url(GDWcss/Center.css);</style>
+
+    <script>
+        var loc = window.location.href;
+        var HTMLvalidatorLinkStr = 'http://validator.w3.org/check?uri=' + loc;
+        var CSSvalidatorLinkStr = 'http://jigsaw.w3.org/css-validator/validator?uri=' + loc + '?profile=css3';
+        document.getElementById("vLink1").setAttribute("href", HTMLvalidatorLinkStr);
+        document.getElementById("vLink2").setAttribute("href", CSSvalidatorLinkStr);
+    </script>
+
+</head>
+
+<body>
+
+    <h1>Object Elements</h1>
+
+    <p>br Makes The Text Go To A New Line
+        hr Makes a Horizontal Line
+    </p>
+    
+    <hr>
+
+    <br>
+
+    <hr>
+
+    <p>I could lift you up<br>I could show you what you want to see<br>And take you where you want to be<br>You could be
+        my luck<br>Even if the sky if falling down<br>I know that we'll be safe and sound</p>
+
+    <br>
+
+    <footer>
+        <a id="vLink1"><strong> HTML </strong> Valid! </a> |
+        <a id="vLink2"><strong> CSS </strong> Valid! </a>
+    </footer>
+    
+</body>
+
+</html>

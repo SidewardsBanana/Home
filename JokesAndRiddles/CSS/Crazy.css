@@ -1,0 +1,36 @@
+body {
+    background-color:black;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    overflow: hidden;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+#Right {
+    background: rgb(240,140,0);
+    background: linear-gradient(90deg, rgba(240,140,0,1) 5%, rgba(255,0,0,1) 15%, rgba(255,0,135,1) 25%, rgba(255,0,245,1) 35%, rgba(190,0,255,1) 45%, rgba(128,0,255,1) 55%, rgba(0,100,255,1) 65%, rgba(0,220,255,1) 75%, rgba(0,255,200,1) 85%, rgba(11,255,10,1) 95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#Middle {
+    color:white;
+    text-align: center;
+    font-size: 1.5cm;
+}
+#Middle:active {
+    text-decoration:line-through white;
+}
+#Middle:hover {
+    color: rgb(148, 0, 211);
+}
+#Left {
+    background: rgb(11,255,10);
+    background: linear-gradient(90deg, rgba(11,255,10,1) 5%, rgba(0,255,200,1) 15%, rgba(0,220,255,1) 25%, rgba(0,100,255,1) 35%, rgba(100,0,200,1) 45%, rgba(190,0,255,1) 55%, rgba(255,0,245,1) 65%, rgba(255,0,135,1) 75%, rgba(255,0,0,1) 85%, rgba(240,140,0,1) 95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

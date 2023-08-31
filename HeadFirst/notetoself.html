@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Note To Self</title>
+
+    <script src="notetoself.js"></script>
+
+    <script>
+        var loc = window.location.href;
+        var HTMLvalidatorLinkStr = 'http://validator.w3.org/check?uri=' + loc;
+        var CSSvalidatorLinkStr = 'http://jigsaw.w3.org/css-validator/validator?uri=' + loc + '?profile=css3';
+        document.getElementById("vLink1").setAttribute("href", HTMLvalidatorLinkStr);
+        document.getElementById("vLink2").setAttribute("href", CSSvalidatorLinkStr);
+    </script>
+
+</head>
+
+<body>
+    <h1>Need To Fix</h1>
+    <form>
+        <input type="text" id="note_text">
+        <input type="button" id="add_button" value="Add A Note To Self">
+    </form>
+
+    <ul id="stickiesArray"></ul>
+
+    <footer>
+        <a id="vLink1"><strong> HTML </strong> Valid! </a> |
+        <a id="vLink2"><strong> CSS </strong> Valid! </a>
+    </footer>
+
+</body>
+
+</html>
